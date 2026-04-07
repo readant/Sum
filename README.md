@@ -20,7 +20,6 @@
 - [📌 使用与提交规范](sslocal://flow/file_open?url=%23-%E4%BD%BF%E7%94%A8%E4%B8%8E%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
   - [文件使用规范](sslocal://flow/file_open?url=%23%E6%96%87%E4%BB%B6%E4%BD%BF%E7%94%A8%E8%A7%84%E8%8C%83&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
   - [Git提交规范](sslocal://flow/file_open?url=%23git%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
-- [📝 更新日志](sslocal://flow/file_open?url=%23-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
 - [📄 免责声明](sslocal://flow/file_open?url=%23-%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
 - [🤝 交流与反馈](sslocal://flow/file_open?url=%23-%E4%BA%A4%E6%B5%81%E4%B8%8E%E5%8F%8D%E9%A6%88&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
 
