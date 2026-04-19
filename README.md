@@ -1,7 +1,7 @@
 # Sum | 机器学习&机器视觉 从入门到实战全记录
-> 物联网工程专业从大一开始的AI学习全历程开源仓库 | 零基础入门 | 双环境隔离 | RTX 50系显卡完美适配 | 结构化学习笔记 | 可复现实战代码
+> 物联网工程专业从大一开始的AI学习全历程开源仓库 | 零基础入门 | 三环境隔离 | RTX 50系显卡完美适配 | 结构化学习笔记 | 可复现实战代码
 
-本仓库全程记录从零基础入门，到机器学习基础、机器视觉YOLO实战、项目落地的完整学习路径。配套保姆级环境配置教程、结构化学习笔记、可直接运行的实战代码、完整项目源码，为零基础入门AI视觉/机器学习的同学提供可参考、可复现的学习范本。
+本仓库全程记录从零基础入门，到机器学习基础、机器视觉YOLO实战、MediaPipe姿态估计、项目落地的完整学习路径。配套保姆级环境配置教程、结构化学习笔记、可直接运行的实战代码、完整项目源码，为零基础入门AI视觉/机器学习的同学提供可参考、可复现的学习范本。
 
 ---
 
@@ -13,10 +13,12 @@
   - [前置依赖](sslocal://flow/file_open?url=%23%E5%89%8D%E7%BD%AE%E4%BE%9D%E8%B5%96&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
   - [环境1：ml-full 机器学习专属环境](sslocal://flow/file_open?url=%23%E7%8E%AF%E5%A2%831ml-full-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%93%E5%B1%9E%E7%8E%AF%E5%A2%83&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
   - [环境2：cv-yolo 机器视觉YOLO专属环境](sslocal://flow/file_open?url=%23%E7%8E%AF%E5%A2%832cv-yolo-%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89yolo%E4%B8%93%E5%B1%9E%E7%8E%AF%E5%A2%83&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
+  - [环境3：mp MediaPipe姿态估计专属环境](sslocal://flow/file_open?url=%23%E7%8E%AF%E5%A2%833mp-mediapipe%E5%A7%BF%E6%80%81%E4%BC%B0%E8%AE%A1%E4%B8%93%E5%B1%9E%E7%8E%AF%E5%A2%83&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
   - [环境验证](sslocal://flow/file_open?url=%23%E7%8E%AF%E5%A2%83%E9%AA%8C%E8%AF%81&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
 - [📅 学习路线规划](sslocal://flow/file_open?url=%23-%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E8%A7%84%E5%88%92&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
   - [第一阶段：机器学习全栈入门（8周）](sslocal://flow/file_open?url=%23%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%A8%E6%A0%88%E5%85%A5%E9%97%A88%E5%91%A8&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
   - [第二阶段：机器视觉&YOLO实战（16周）](sslocal://flow/file_open?url=%23%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89yolo%E5%AE%9E%E6%88%9816%E5%91%A8&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
+  - [第三阶段：MediaPipe姿态估计（8周）](sslocal://flow/file_open?url=%23%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5mediapipe%E5%A7%BF%E6%80%81%E4%BC%B0%E8%AE%A18%E5%91%A8&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
 - [📌 使用与提交规范](sslocal://flow/file_open?url=%23-%E4%BD%BF%E7%94%A8%E4%B8%8E%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
   - [文件使用规范](sslocal://flow/file_open?url=%23%E6%96%87%E4%BB%B6%E4%BD%BF%E7%94%A8%E8%A7%84%E8%8C%83&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
   - [Git提交规范](sslocal://flow/file_open?url=%23git%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
@@ -27,10 +29,11 @@
 
 ## 🌟 仓库核心亮点
 1.  **新手友好**：全程以大一零基础视角记录，无跳步、无黑箱，每一步学习都有对应的笔记与可运行代码
-2.  **双环境隔离**：机器学习与机器视觉两套独立虚拟环境，彻底解决Python包版本冲突问题
+2.  **三环境隔离**：机器学习、机器视觉、MediaPipe姿态估计三套独立虚拟环境，彻底解决Python包版本冲突问题
 3.  **新硬件适配**：针对RTX 50系显卡（RTX 5060 Laptop sm_120算力）提供踩坑后的完美适配方案，解决新显卡CUDA兼容报错难题
 4.  **结构化管理**：严格的文件管理逻辑，笔记、代码、数据集、模型完全分离，长期学习也不会出现文件混乱
 5.  **全流程闭环**：从环境搭建→基础语法→核心算法→实战项目，完整覆盖大学AI相关课程、学科竞赛、毕业设计的核心需求
+6.  **多技术栈覆盖**：涵盖机器学习、YOLO目标检测、MediaPipe姿态估计等主流AI视觉技术，满足不同场景需求
 
 ---
 
@@ -39,6 +42,7 @@
 - 物联网、计算机、自动化相关专业的AI学习新手
 - 持有RTX 50系新显卡，被CUDA/PyTorch兼容问题困扰的同学
 - 想要系统学习YOLO目标检测，完成课程设计/毕设/竞赛的同学
+- 对人体姿态估计、手部/面部识别感兴趣的开发者
 
 ---
 
@@ -72,9 +76,32 @@ Sum/
 │   └── data/                   # 统一数据区：图片/视频数据集、YOLO模型文件、标注文件
 │       └── models/             # YOLO预训练模型、自定义训练模型存放区
 │
+├── 03_MediaPipe_learning/     # 第三阶段：MediaPipe姿态估计（已更新）
+│   ├── models/                 # 共享模型目录：MediaPipe预训练模型
+│   │   ├── hand_landmarker.task
+│   │   ├── face_landmarker.task
+│   │   ├── pose_landmarker.task
+│   │   └── download_model.py   # 模型下载脚本
+│   ├── 手部姿态学习/           # 手部检测与手势识别
+│   │   ├── 手部检测/手部检测测试.py
+│   │   ├── 手势识别/手势识别测试.py
+│   │   ├── 双手协同/双手协同测试.py
+│   │   └── 置信度估计/置信度估计测试.py
+│   ├── 面部特征学习/           # 面部检测与表情识别
+│   │   ├── 面部检测/面部检测测试.py
+│   │   ├── 表情识别/表情识别测试.py
+│   │   └── 面部特征分析/面部特征分析测试.py
+│   └── 身体姿态学习/           # 身体姿态与全身检测
+│       ├── 姿态检测/姿态检测测试.py
+│       └── 全身检测/全身检测测试.py
+│
 ├── 配置检查/                   # 环境检查脚本、一键安装指令
 │  
 ├── learn/                      # 学习笔记草稿、未整理资料等内容
+│   ├── 基础线性回归模型/       # 基础机器学习模型笔记
+│   ├── 机器学习入道篇/         # 机器学习入门笔记
+│   └── MediaPipe错误与解决方案.md  # MediaPipe学习错误与解决方案
+├── test_model_paths.py         # 模型路径测试脚本
 ├── .gitignore                  # 已完善：屏蔽IDE配置、大模型文件、数据集、临时文件等冗余内容
 └── README.md                   # 仓库说明文档（本文档）
 ```
@@ -82,7 +109,7 @@ Sum/
 ---
 
 ## 🛠️ 环境配置说明
-本仓库分为两套完全独立的虚拟环境，基于Miniconda搭建，避免版本冲突，以下为一键安装指令。
+本仓库分为三套完全独立的虚拟环境，基于Miniconda搭建，避免版本冲突，以下为一键安装指令。
 
 ### 前置依赖
 - 安装 [Miniconda3](sslocal://flow/file_open?url=https%3A%2F%2Fdocs.conda.io%2Fen%2Flatest%2Fminiconda.html&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)（推荐Python 3.11+版本）
@@ -117,18 +144,34 @@ pip install ultralytics==8.4.33 opencv-python opencv-python-headless numpy==2.4.
 
 ---
 
+#### 环境3：mp MediaPipe姿态估计专属环境
+用于第三阶段MediaPipe姿态估计学习，专注于人体姿态、手部、面部特征检测。
+```bash
+# 1. 创建并激活环境
+conda create -n mp python=3.11 -y && conda activate mp
+
+# 2. 一键安装MediaPipe全量依赖
+pip install mediapipe opencv-python numpy matplotlib requests tqdm
+```
+
+---
+
 #### 环境验证
 安装完成后，运行对应环境的检查脚本，即可验证环境是否完美配置：
 ```bash
 # 验证cv-yolo环境
 conda activate cv-yolo
 python 配置检查/计算机视觉cv-yolo-pro第三方库检查.py
+
+# 验证mp环境
+conda activate mp
+python 03_MediaPipe_learning/手部姿态学习/手部检测/手部检测测试.py
 ```
 
 ---
 
 ## 📅 学习路线规划
-本仓库按照「先基础后实战、先机器学习后机器视觉」的循序渐进路线规划，适配大学课余学习节奏，总周期约6个月。
+本仓库按照「先基础后实战、先机器学习后机器视觉再到姿态估计」的循序渐进路线规划，适配大学课余学习节奏，总周期约8个月。
 
 ### 第一阶段：机器学习全栈入门（8周）
 打牢数据科学与机器学习核心基础，为后续机器视觉学习做底层铺垫，对应`01_ml-full_learning/`文件夹。
@@ -155,10 +198,23 @@ python 配置检查/计算机视觉cv-yolo-pro第三方库检查.py
 
 ---
 
+### 第三阶段：MediaPipe姿态估计（8周）
+掌握MediaPipe人体姿态估计、手部检测、面部识别等核心技术，对应`03_MediaPipe_learning/`文件夹。
+
+| 学习模块 | 学习周期 | 核心学习内容 | 验收标准 |
+| :--- | :--- | :--- | :--- |
+| MediaPipe基础 | 1周 | MediaPipe框架介绍、模型下载与配置、基础API使用 | 成功搭建MediaPipe环境，运行基础检测示例 |
+| 手部姿态学习 | 2周 | 手部关键点检测、手势识别、双手协同、置信度估计 | 实现实时手部检测与手势识别，准确率达到85%以上 |
+| 面部特征学习 | 2周 | 面部关键点检测、表情识别、面部特征分析 | 实现实时面部检测与表情识别，支持多种表情分类 |
+| 身体姿态学习 | 2周 | 身体关键点检测、全身检测、姿态分析 | 实现实时全身姿态检测，绘制完整骨架 |
+| MediaPipe项目实战 | 1周 | 结合OpenCV与MediaPipe，开发综合应用 | 完成1-2个完整的姿态估计应用项目 |
+
+---
+
 ## 📌 使用与提交规范
 ### 文件使用规范
 1.  学习笔记**仅存放于对应阶段的`00_jupyter_notes/`文件夹**，按学习模块分子文件夹管理
-2.  数据集、模型文件**仅存放于对应阶段的`data/`文件夹**，绝不和代码、笔记混放
+2.  数据集、模型文件**仅存放于对应阶段的`data/`或`models/`文件夹**，绝不和代码、笔记混放
 3.  纯代码练习、工具脚本存放于对应模块的代码文件夹，不与笔记混杂
 4.  切换学习内容前，必须先激活对应的虚拟环境，避免版本冲突
 
@@ -174,7 +230,7 @@ python 配置检查/计算机视觉cv-yolo-pro第三方库检查.py
 
 ## 📄 免责声明
 1.  本仓库仅用于个人学习记录，所有代码与笔记均为学习过程产出，请勿用于商业用途
-2.  所有预训练模型均来自Ultralytics官方开源项目，模型版权归原作者所有
+2.  所有预训练模型均来自Ultralytics和Google MediaPipe官方开源项目，模型版权归原作者所有
 3.  本仓库提供的环境配置方案仅为个人踩坑经验，仅供参考，因硬件/软件版本差异导致的问题，需自行排查解决
 
 ---

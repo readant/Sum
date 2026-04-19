@@ -1,0 +1,13 @@
+name: mp
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - mediapipe
+    - opencv-python
+    - numpy
+    - matplotlib
+    - requests
+    - tqdm
