@@ -3,15 +3,15 @@ import sys
 
 # 测试模块列表
 test_modules = [
-    r"03_MediaPipe_learning\手部姿态学习\手部检测\手部检测测试.py",
-    r"03_MediaPipe_learning\手部姿态学习\手势识别\手势识别测试.py",
-    r"03_MediaPipe_learning\手部姿态学习\双手协同\双手协同测试.py",
-    r"03_MediaPipe_learning\手部姿态学习\置信度估计\置信度估计测试.py",
-    r"03_MediaPipe_learning\面部特征学习\面部检测\面部检测测试.py",
-    r"03_MediaPipe_learning\面部特征学习\表情识别\表情识别测试.py",
-    r"03_MediaPipe_learning\面部特征学习\面部特征分析\面部特征分析测试.py",
-    r"03_MediaPipe_learning\身体姿态学习\姿态检测\姿态检测测试.py",
-    r"03_MediaPipe_learning\身体姿态学习\全身检测\全身检测测试.py"
+    r"04_mediapipe\01_code\hand\手部检测\手部检测测试.py",
+    r"04_mediapipe\01_code\hand\手势识别\手势识别测试.py",
+    r"04_mediapipe\01_code\hand\双手协同\双手协同测试.py",
+    r"04_mediapipe\01_code\hand\置信度估计\置信度估计测试.py",
+    r"04_mediapipe\01_code\face\面部检测\面部检测测试.py",
+    r"04_mediapipe\01_code\face\表情识别\表情识别测试.py",
+    r"04_mediapipe\01_code\face\面部特征分析\面部特征分析测试.py",
+    r"04_mediapipe\01_code\body\姿态检测\姿态检测测试.py",
+    r"04_mediapipe\01_code\body\全身检测\全身检测测试.py"
 ]
 
 def test_model_path(module_path):

@@ -48,62 +48,77 @@
 
 ## 📁 仓库文件夹结构
 严格遵循「学习阶段隔离、笔记代码分离、数据模型统一管理」的原则，结构如下：
+
 ```plaintext
 Sum/
-├── 01_ml-full_learning/       # 第一阶段：机器学习全栈学习（规划中）
-│   ├── 00_jupyter_notes/      # 唯一笔记存放区，按学习模块分子文件夹
-│   │   ├── 01_机器学习基础/
-│   │   ├── 02_数据可视化/
-│   │   ├── 03_机器学习算法/
-│   │   ├── 04_竞赛实战/
-│   │   └── 09_临时测试/
-│   ├── 01_基础库/             # NumPy/Pandas 纯代码练习、工具函数
-│   ├── 02_数据可视化/         # 绘图代码、导出的可视化结果
-│   ├── 03_机器学习算法/       # 算法实现、模型训练代码、训练好的模型文件
-│   ├── 04_项目实战/           # 完整机器学习项目源码、配置文件、项目文档
-│   └── data/                   # 统一数据区：csv数据集、pkl模型文件
+├── 00_prerequisites/              # 前置基础：Python、数据科学、数学
+│   ├── 00_python_basics/           # Python基础语法
+│   ├── 01_numpy_pandas/            # NumPy & Pandas 数据处理
+│   ├── 02_data_visualization/      # Matplotlib & Seaborn 可视化
+│   └── 03_math_basics/            # 数学基础（线性代数、概率统计）
 │
-├── 02_cv-yolo_learning/       # 第二阶段：机器视觉&YOLO实战（已更新）
-│   ├── 00_jupyter_notes/      # 唯一笔记存放区，按学习模块分子文件夹
-│   │   ├── 01_OpenCV基础/
-│   │   ├── 02_YOLO目标检测/
-│   │   ├── 03_视频处理/
-│   │   ├── 04_视觉项目/
-│   │   └── 09_临时测试/
-│   ├── 01_OpenCV基础/         # OpenCV 纯代码练习、图像处理脚本
-│   ├── 02_YOLO目标检测/       # YOLO 推理/训练代码、配置文件
-│   ├── 03_视觉项目实战/       # 完整视觉项目源码、配置文件、项目文档
-│   └── data/                   # 统一数据区：图片/视频数据集、YOLO模型文件、标注文件
-│       └── models/             # YOLO预训练模型、自定义训练模型存放区
+├── 01_machine_learning/            # 第一阶段：机器学习
+│   ├── 00_notes/                   # 学习笔记（按主题分类）
+│   │   ├── 01_intro/               # 机器学习入门
+│   │   ├── 02_supervised_learning/ # 监督学习
+│   │   ├── 03_unsupervised_learning/# 无监督学习
+│   │   └── 09_experiments/         # 实验测试
+│   ├── 01_code/                    # 代码练习
+│   │   ├── 01_numpy_practice/      # NumPy练习
+│   │   ├── 02_sklearn/             # sklearn算法实现
+│   │   └── 03_visualization/      # 可视化代码
+│   ├── 02_projects/                # 项目实战
+│   │   ├── advertising_sales/      # 广告与销售分析项目
+│   │   └── house_price/           # 房价预测项目
+│   └── data/                       # 统一数据区
 │
-├── 03_MediaPipe_learning/     # 第三阶段：MediaPipe姿态估计（已更新）
-│   ├── models/                 # 共享模型目录：MediaPipe预训练模型
-│   │   ├── hand_landmarker.task
-│   │   ├── face_landmarker.task
-│   │   ├── pose_landmarker.task
-│   │   └── download_model.py   # 模型下载脚本
-│   ├── 手部姿态学习/           # 手部检测与手势识别
-│   │   ├── 手部检测/手部检测测试.py
-│   │   ├── 手势识别/手势识别测试.py
-│   │   ├── 双手协同/双手协同测试.py
-│   │   └── 置信度估计/置信度估计测试.py
-│   ├── 面部特征学习/           # 面部检测与表情识别
-│   │   ├── 面部检测/面部检测测试.py
-│   │   ├── 表情识别/表情识别测试.py
-│   │   └── 面部特征分析/面部特征分析测试.py
-│   └── 身体姿态学习/           # 身体姿态与全身检测
-│       ├── 姿态检测/姿态检测测试.py
-│       └── 全身检测/全身检测测试.py
+├── 02_deep_learning/               # 第二阶段：深度学习（规划中）
+│   ├── 00_notes/
+│   ├── 01_code/
+│   ├── 02_projects/
+│   └── data/
 │
-├── 配置检查/                   # 环境检查脚本、一键安装指令
-│  
-├── learn/                      # 学习笔记草稿、未整理资料等内容
-│   ├── 基础线性回归模型/       # 基础机器学习模型笔记
-│   ├── 机器学习入道篇/         # 机器学习入门笔记
-│   └── MediaPipe错误与解决方案.md  # MediaPipe学习错误与解决方案
-├── test_model_paths.py         # 模型路径测试脚本
-├── .gitignore                  # 已完善：屏蔽IDE配置、大模型文件、数据集、临时文件等冗余内容
-└── README.md                   # 仓库说明文档（本文档）
+├── 03_computer_vision/             # 第三阶段：计算机视觉
+│   ├── 00_notes/                   # 学习笔记
+│   │   ├── 01_opencv/              # OpenCV基础
+│   │   ├── 02_yolo/                # YOLO目标检测
+│   │   ├── 03_video_processing/    # 视频处理
+│   │   ├── 04_projects/            # 项目实战
+│   │   └── 09_experiments/         # 实验测试
+│   ├── 01_code/                    # 代码练习
+│   │   ├── 01_opencv/              # OpenCV代码
+│   │   ├── 02_yolo/                # YOLO代码
+│   │   └── 03_video/               # 视频处理代码
+│   ├── 02_projects/                # 项目实战
+│   ├── data/                       # 统一数据区
+│   └── models/                     # YOLO模型存放区
+│
+├── 04_mediapipe/                   # 第四阶段：MediaPipe
+│   ├── 00_notes/                   # 学习笔记
+│   ├── 01_code/                    # 代码练习
+│   │   ├── hand/                   # 手部姿态
+│   │   ├── face/                   # 面部特征
+│   │   └── body/                   # 身体姿态
+│   ├── 02_projects/                # 项目实战
+│   └── models/                     # MediaPipe模型（纯ASCII路径）
+│
+├── 05_projects/                    # 第五阶段：综合项目
+│   ├── complete_projects/          # 完整项目
+│   ├── competition/                # 竞赛项目
+│   └── portfolio/                  # 作品集
+│
+├── docs/                           # 文档
+│   └── MediaPipe错误与解决方案.md  # 错误记录
+│
+├── scripts/                        # 工具脚本
+│   ├── 基础学习/                    # ml-full环境检查
+│   ├── 机器视觉/                    # cv-yolo环境检查
+│   ├── MediaPipe/                  # MediaPipe环境检查
+│   └── test.py                     # 摄像头测试
+│
+├── test_model_paths.py             # 模型路径测试脚本
+├── .gitignore                      # Git忽略规则
+└── README.md                       # 本文档
 ```
 
 ---
@@ -159,13 +174,17 @@ pip install mediapipe opencv-python numpy matplotlib requests tqdm
 #### 环境验证
 安装完成后，运行对应环境的检查脚本，即可验证环境是否完美配置：
 ```bash
+# 验证ml-full环境
+conda activate ml-full
+python scripts/基础学习/机器学习基础ml-full第三方库检查.py
+
 # 验证cv-yolo环境
 conda activate cv-yolo
-python 配置检查/计算机视觉cv-yolo-pro第三方库检查.py
+python scripts/机器视觉/计算机视觉cv-yolo-pro第三方库检查.py
 
 # 验证mp环境
 conda activate mp
-python 03_MediaPipe_learning/手部姿态学习/手部检测/手部检测测试.py
+python scripts/MediaPipe/MediaPipe环境检查.py
 ```
 
 ---
@@ -174,7 +193,7 @@ python 03_MediaPipe_learning/手部姿态学习/手部检测/手部检测测试.
 本仓库按照「先基础后实战、先机器学习后机器视觉再到姿态估计」的循序渐进路线规划，适配大学课余学习节奏，总周期约8个月。
 
 ### 第一阶段：机器学习全栈入门（8周）
-打牢数据科学与机器学习核心基础，为后续机器视觉学习做底层铺垫，对应`01_ml-full_learning/`文件夹。
+打牢数据科学与机器学习核心基础，为后续机器视觉学习做底层铺垫，对应`01_machine_learning/`文件夹。
 
 | 学习模块 | 学习周期 | 核心学习内容 | 验收标准 |
 | :--- | :--- | :--- | :--- |
@@ -186,7 +205,7 @@ python 03_MediaPipe_learning/手部姿态学习/手部检测/手部检测测试.
 ---
 
 ### 第二阶段：机器视觉&YOLO实战（16周）
-掌握计算机视觉核心能力，精通YOLO目标检测全流程，发挥RTX 5060 GPU的硬件加速优势，对应`02_cv-yolo_learning/`文件夹。
+掌握计算机视觉核心能力，精通YOLO目标检测全流程，发挥RTX 5060 GPU的硬件加速优势，对应`03_computer_vision/`文件夹。
 
 | 学习模块 | 学习周期 | 核心学习内容 | 验收标准 |
 | :--- | :--- | :--- | :--- |
@@ -199,7 +218,7 @@ python 03_MediaPipe_learning/手部姿态学习/手部检测/手部检测测试.
 ---
 
 ### 第三阶段：MediaPipe姿态估计（8周）
-掌握MediaPipe人体姿态估计、手部检测、面部识别等核心技术，对应`03_MediaPipe_learning/`文件夹。
+掌握MediaPipe人体姿态估计、手部检测、面部识别等核心技术，对应`04_mediapipe/`文件夹。
 
 | 学习模块 | 学习周期 | 核心学习内容 | 验收标准 |
 | :--- | :--- | :--- | :--- |
